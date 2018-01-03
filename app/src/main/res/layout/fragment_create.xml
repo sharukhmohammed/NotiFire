@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="sharukh.reminds.CreateFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <android.support.design.widget.TextInputLayout
+
+            android:id="@+id/hintContainerEditTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/titleEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/remind_you_about"
+                android:inputType="textCapWords|textAutoCorrect"
+                android:textSize="22sp"/>
+
+            <requestFocus/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/hintContainerEditTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hintContainerEditTextTitle"
+            android:layout_marginTop="@dimen/activity_vertical_margin">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/what_when_where"
+                android:inputType="textCapSentences|textAutoCorrect"
+                android:textSize="20sp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/timedCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/hintContainerEditTextText"
+            android:layout_alignStart="@+id/hintContainerEditTextText"
+            android:layout_below="@+id/hintContainerEditTextText"
+            android:layout_marginTop="8dp"
+            android:text="@string/remind_me_at_a_specific_time"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

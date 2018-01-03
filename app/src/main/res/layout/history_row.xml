@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingBottom="6dp"
+              android:paddingTop="6dp">
+
+    <TextView
+        android:id="@+id/listItem_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="@string/upcoming"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"/>
+
+    <TextView
+
+        android:id="@+id/listItem_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="@string/all_the_reminders_will_appear_here"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/listItem_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="@string/an_hour_ago"
+        android:textSize="12sp"/>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name" translatable="false">NotiFire</string>
+
+    <!--Time Constant Strings-->
+    <string name="just_now">just now</string>
+    <string name="a_minute_ago">a minute ago</string>
+    <string name="minutes_ago">" minutes ago"</string>
+    <string name="an_hour_ago">an hour ago</string>
+    <string name="hours_ago">" hours ago"</string>
+    <string name="yesterday">yesterday</string>
+    <string name="days_ago">" days ago"</string>
+    <string name="upcoming">upcoming</string>
+
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!--History Fragment-->
+    <string name="history_is_empty">History is empty</string>
+    <string name="all_the_reminders_will_appear_here">All the Reminders will appear here</string>
+    <string name="remind_you_about">Remind you about</string>
+    <string name="what_when_where">What/When/Where</string>
+    <string name="remind_me_at_a_specific_time">Remind me at a specific time</string>
+
+
+</resources>
